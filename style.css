@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background: linear-gradient(#0b133c 0%, #fafafa 100%);
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    right: 40px;
+    top: 25px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: right;
+    color: rosybrown;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+}
+
+#titleimage {
+    width: 1000px;
+    height: 550px;
+    background-color:
+}
+
+.gridimages {
+    width: 300px;
+    height: 200px;
+    border: 5px;
+    border-color: aqua;
+}
+
+.gridimageshd {
+    width: 200px;
+    height: 200px;
+    border: 5px;
+    border-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img-responsive{
+    width: absolute;
+    height: 500px;
+}

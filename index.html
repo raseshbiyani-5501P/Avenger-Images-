@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="avengers.png" type="image/x-icon">
+    <title>Avengers Collage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="menu">
+            <li class="links"><a href="#sliding">Sliding Gallery</a></li>
+            <li class="links"><a href="#grid">Grid Gallery</a></li>
+            <li class="links"><a href="#home">Home</a></li>
+        </ul>
+
+        <section id="home">
+            <img id="titleimage" src="avengershome.png">
+        </section>
+        <br><br><br><br><br>
+
+        <section id="grid">
+            <span>
+                <img class="gridimages" src="captain.png">
+            </span>
+            <span>
+                <img class="gridimages" src="hulk.png">
+            </span>
+            <span>
+                <img class="gridimageshd" src="ironmanpng.jfif">
+            </span>
+            <span>
+                <img class="gridimageshd" src="panther.png">
+            </span>
+            <div>
+                <span>
+                    <img class="gridimages" src="racoon.png">
+                </span>
+                <span>
+                    <img class="gridimageshd" src="scarlet.png">
+                </span>
+                <span>
+                    <img class="gridimages" src="ultron.png">
+                </span>
+                <span>
+                    <img class="gridimages" src="widow.png">
+                </span>
+            </div>
+
+        </section>
+
+        <br><br><br><br><br><br>
+
+        <div id="slideshow" class="carousel slide">
+            <div class="carousel-inner">
+               
+                <div class="item active">
+                    <center>
+                        <a target="_blank"> <img src="ironmanbanner.png" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>Iron Man</p>
+                                
+                        </div>
+
+                    </center>
+                                
+                </div>
+               
+                 <div class="item">
+                    <center>
+                        <a target="_blank">
+                            <img src="thanosbanner.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Thanos</p>
+                        </div>
+                     </center>
+                </div>                     
+                </div>
+                
+                
+            </div>
+
+            <center>
+                <a class="left carousel-control" data-slide="prev" href="#slideshow">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" data-slide="next" href="#slideshow">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </center>
+        </div>
+</body></html>

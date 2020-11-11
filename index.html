@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!--<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="avengers.png" type="image/x-icon">
-    <title>Avengers Collage</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>-->
+
+<head>
+    <title>Avengers Collage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
     <div class="container">
@@ -58,81 +75,82 @@
 
         <br><br><br><br><br><br>
 
-       <section id="sliding">
-        <div id="slideshow" class="carousel slide">
-            <div class="carousel-inner">
+        <section id="sliding">
+            <div id="slideshow" class="carousel slide">
 
-                <div class="item active">
-                    <center>
-                        <a target="_blank"> <img src="ironmanbanner.png" class="img-responsive"></a>
-                        <div class="carousel-content">
-                            <p>Iron Man</p>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideshow" data-slide-to="1"></li>
+                    <li data-target="#slideshow" data-slide-to="2"></li>
+                    <li data-target="#slideshow" data-slide-to="3"></li>
+                    <li data-target="#slideshow" data-slide-to="4"></li>
+                    <li data-target="#slideshow" data-slide-to="5"></li>
+                    <li data-target="#slideshow" data-slide-to="6"></li>
+                    <li data-target="#slideshow" data-slide-to="7"></li>
 
-                        </div>
-                        <ol carousel-indicators>
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                        </ol>
-                    </center>
-
-                </div>
-
-                <div class="item">
-                    <center>
-                        <a target="_blank">
-                            <img src="thanosbanner.png" class="img-responsive">
-                        </a>
-                        <div class="carousel-content">
-                            <p>Thanos</p>
-                        </div>
-                        <ol carousel-indicators>
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
                 </ol>
-                
-                    </center>
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <center>
+                            <a target="_blank"> <img src="ironmanbanner.png" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Iron Man</p>
+
+                            </div>
+
+                        </center>
+
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <a target="_blank">
+                                <img src="thanosbanner.png" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Thanos</p>
+                            </div>
+
+
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <a target="_blank">
+                                <img src="gamorabanner.png" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Thanos</p>
+                            </div>
+
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <a target="_blank">
+                                <img src="thorbanner.png" class="img-responsive">
+                            </a>
+                            <div class="carousel-content">
+                                <p>Thanos</p>
+                            </div>
+
+                        </center>
+                    </div>
                 </div>
-                                
-                <div class="item">
-                    <center>
-                        <a target="_blank">
-                            <img src="gamorabanner.png" class="img-responsive">
-                        </a>
-                        <div class="carousel-content">
-                            <p>Thanos</p>
-                        </div>
-                        <ol carousel-indicators>
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                        </ol>
-                    </center>
-                </div>
-                
-                <div class="item">
-                    <center>
-                        <a target="_blank">
-                            <img src="thorbanner.png" class="img-responsive">
-                        </a>
-                        <div class="carousel-content">
-                            <p>Thanos</p>
-                        </div>
-                        <ol carousel-indicators>
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                        </ol>
-                    </center>
-                </div>
+
+
+                <a class="left carousel-control" data-slide="prev" href="#slideshow">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" data-slide="next" href="#slideshow">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
             </div>
-
-
-            <a class="left carousel-control" data-slide="prev" href="#slideshow">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" data-slide="next" href="#slideshow">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-
-        </div>
         </section>
     </div>
 </body>
